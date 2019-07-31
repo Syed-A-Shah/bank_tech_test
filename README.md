@@ -55,14 +55,12 @@ irb -r ./lib/bank.rb
 
 
 ### Testing
-Testing is done using RSpec, SimpleCov and Rubocop(linter)
+Testing is done using RSpec and Rubocop(linter)
 
 To run the tests
 ```
 rspec
 ```
-That will show you the passing tests as well as the code coverage which is %100.
-To see the linter has no offences
 ```
 rubocop
 ```
